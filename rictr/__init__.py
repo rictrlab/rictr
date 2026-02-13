@@ -8,6 +8,7 @@ from .strategies import (
 from .alignment import LayerMap, FeatureExtractor, make_projector, get_submodule
 from .losses import kl_divergence, mse_loss, cosine_loss, attention_loss
 from .utils import freeze, unfreeze, get_device, auto_device
+from .metrics import LossTracker, accuracy, top_k_accuracy, perplexity 
 
 __version__ = "1.0.0"
 
@@ -37,4 +38,9 @@ __all__ = [
     "unfreeze",
     "get_device",
     "auto_device",
+    # Metrics
+    "LossTracker",
+    "accuracy",
+    "top_k_accuracy",
+    "perplexity",
 ]
