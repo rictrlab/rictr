@@ -2,7 +2,6 @@
 name = "rictr"
 version = "1.0.0"
 description = "knowledge distillation library for pytorch"
-readme = "README.md"
 requires-python = ">=3.9"
 license = {text = "MIT"}
 keywords = ["pytorch", "knowledge-distillation", "machine-learning", "deep-learning"]
